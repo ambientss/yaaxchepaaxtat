@@ -1,0 +1,77 @@
+*{margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;color:rgb(32,32,32);font-size:1em;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+a{text-decoration:none;}
+a:hover{color:rgb(100,70,20);}
+html{width:100%;height:100%;}
+body{width:100%;height:100%;background-color:rgb(255,255,255);}
+#BotonAudio{position:fixed;top:15%;left:6%;z-index:100;display:block;width:40px;height:40px;border-radius:50%;border:none;background-color:rgb(100,70,20);color:rgb(255,255,255);cursor:pointer;font-size:26px;text-align:center;padding-bottom:4px;
+-webkit-transform:rotate(180deg);
+-moz-transform:rotate(180deg);
+-o-transform:rotate(180deg);
+transform:rotate(180deg);
+animation:pulso 2s infinite cubic-bezier(0.66, 0, 0, 1);box-shadow:0 0 0 0 rgb(200,200,200);}
+@-webkit-keyframes pulso{to{box-shadow:0 0 0 28px rgba(200,200,200,0);}}
+@-moz-keyframes pulso{to{box-shadow:0 0 0 28px rgba(200,200,200,0);}}
+@-ms-keyframes pulso{to{box-shadow:0 0 0 28px rgba(200,200,200,0);}}
+@keyframes pulso{to{box-shadow:0 0 0 28px rgba(200,200,200,0);}}
+header{width:100%;height:100%;background:url(../img/DSC05455.jpg);background-size:cover;background-position:center,center;background-repeat:no-repeat;background-attachment:fixed;}
+header .MenuPrincipal{position:fixed;left:6%;bottom:8%;z-index:100;}
+header .RedesHeader{position:absolute;right:6%;bottom:8%;z-index:100;}
+header li{padding:.6em 0;list-style-type:none;}
+header a{color:rgb(200,200,200);letter-spacing:0.02em;}
+.contLogotipos{position:absolute;top:6%;right:6%;z-index:1;}
+.contLogotipos #Escudo{display:block;width:120px;position:relative;left:50%;z-index:2;
+transform:translate(-50%, 0);-webkit-transform:translate(-50%, 0);}
+.contLogotipos #Logo{display:block;width:180px;margin-top:40px;position:relative;left:50%;z-index:3;
+transform:translate(-50%, 0);-webkit-transform:translate(-50%, 0);}
+.reproExclusiva{position:absolute;top:0;left:25%;width:50%;height:100%;margin:0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.reproExclusiva iframe{width:350px;}
+.reproExclusiva article{font-family:serif;color:rgb(245,245,245);font-size:2.2em;text-align:center;margin-top:.5em;text-shadow:0 0 .3em rgb(0,0,0);}
+.contIntro{width:100%;height:100%;position:relative;z-index:10;}
+.contIntro #ArtFoto{height:60%;display:block;position:absolute;top:20%;right:0;z-index:11;}
+.contIntroInte{width:28%;height:60%;position:absolute;top:20%;left:15%;z-index:12;overflow-y:auto;}
+.contIntroInte article{position:absolute;top:0;left:0;z-index:20;}
+.contIntroInte h3{font-family:serif;font-size:1.4em;font-weight:normal;color:rgb(100,70,20);margin-bottom:.5em;}
+.contIntroInte p{font-family:serif;font-size:1.1em;}
+.contIntroInte strong{font-family:serif;font-weight:normal;}
+.contIntroInte time{font-family:serif;font-weight:bold;}
+.contIntroInte article hr{border:none;height:1px;background:rgb(200,200,200);}
+.contIntroInte::-webkit-scrollbar{width:10px;height:10px;}
+.contIntroInte::-webkit-scrollbar-track{border-radius:5px;background:rgb(200,200,200);}
+.contIntroInte::-webkit-scrollbar-thumb{border-radius:5px;background:rgb(127,127,127);}
+.contIntroInte::-webkit-scrollbar-thumb:hover{background:rgb(100,70,20);}
+.contMusica{width:100%;height:100%;position:relative;}
+#album1, #album2, #album3, #album4, #album5, #album6{width:100%;height:80%;padding-left:15%;position:absolute;top:0;left:0;}
+.repro{width:75%;height:100%;display:flex;align-items:center;justify-content:center;}
+.repro iframe{width:560px;}
+.MenuAlbum{position:absolute;right:6%;top:20%;}
+.MenuAlbum h2{width:100%;margin-bottom:1em;font-family:serif;font-size:1.6em;letter-spacing:0.05em;font-weight:normal;color:rgb(245,245,245);}
+.MenuAlbum li{list-style-type:none;font-size:.9em;letter-spacing:0.02em;color:rgb(200,200,200);margin-bottom:1em;cursor:pointer;}
+.contProductos{width:85%;height:100%;margin-left:15%;}
+.prodInfoContacto{font-family:serif;font-size:1em;color:rgb(100,70,20);text-align:right;margin-right:6%;}
+.contProductos article{display:inline-block;width:40%;height:80%;margin-right:9%;position:relative;}
+.contProductos article img{width:100%;display:block;position:absolute;bottom:0;}
+.InfoProducto{position:absolute;bottom:2%;left:2%;}
+.InfoProducto h3{font-size:1em;font-weight:bold;letter-spacing:0.02em;color:rgb(245,245,245);}
+.InfoProducto p{font-family:serif;font-size:.8em;color:rgb(245,245,245);}
+footer{width:100%;height:50%;margin-bottom:10%;padding-top:5%;background:url(../img/DSC05455.jpg);background-size:100%;background-position:center,center;background-repeat:no-repeat;background-attachment:fixed;}
+footer address{width:100%;text-align:center;}
+footer address a{color:rgb(255,255,255);font-size:1.5em;font-style:normal;margin-bottom:2%;display:inline-block;}
+footer address p{color:rgb(255,255,255);font-size:1.1em;margin-bottom:4%;}
+.RedesSociales{width:100%;display:flex;justify-content:center;}
+.RedesSociales a{display:block;margin:0 3%;}
+.RedesSociales img{display:block;height:30px;padding:10px 20px;background:rgb(255,255,255);transition:.2s;
+box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;}
+.RedesSociales img:hover{background:rgb(100,70,20);transition:.2s;}
+.contHistoria{width:100%;height:100%;position:relative;}
+.contHistoria img{height:100%;display:block;position:absolute;}
+.ViejaHistoria{width:60%;height:100%;position:absolute;right:7%;padding-top:3%;}
+.ViejaHistoria h2{font-family:serif;font-size:1.6em;font-weight:normal;color:rgb(100,70,20);margin-bottom:1.5em;}
+.ViejaHistoria p{font-size:.9em;letter-spacing:0.02em;color:rgb(127,127,127);text-align:justify;}
+.ViejaHistoria strong {font-weight:normal;}
+.footer{width:100%;height:32%;background:rgb(32,32,32);position:relative;}
+.footer p{color:rgb(200,200,200);font-size:.8em;}
+.contFirma{width:20%;height:100%;margin:0 auto;padding-top:2em;}
+.contFirma img{display:block;width:100%;}
+.firma{text-align:center;position:absolute;bottom:15%;width:20%;}
+.infoweb{position:absolute;right:6%;bottom:15%;text-align:right;}
+.avisoPhoneHor{display:none;}
