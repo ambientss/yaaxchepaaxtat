@@ -1,0 +1,64 @@
+*{margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;color:rgb(32,32,32);font-size:1em;
+box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+a{text-decoration:none;}
+a:hover{color:rgb(100,70,20);}
+html{width:100%;height:100%;}
+body{width:100%;height:100%;background-color:rgb(255,255,255);}
+#BotonAudio{display:none;}
+header{width:100%;height:100%;background:url(../img/DSC05455vert.jpg);background-size:cover;background-position:center,center;background-repeat:no-repeat;background-attachment:fixed;}
+header .MenuPrincipal{position:absolute;left:6%;bottom:3%;z-index:100;}
+header .RedesHeader{position:absolute;right:6%;bottom:3%;z-index:100;}
+header li{padding:1em 0;list-style-type:none;}
+header a{color:rgb(200,200,200);letter-spacing:0.02em;font-size:1.6em;}
+.contLogotipos{position:absolute;top:6%;right:6%;z-index:1;}
+.contLogotipos #Escudo{display:block;width:160px;position:relative;left:50%;z-index:2;
+transform:translate(-50%,0);-webkit-transform:translate(-50%,0);}
+.contLogotipos #Logo{display:block;width:300px;margin-top:40px;position:relative;left:50%;z-index:3;
+transform:translate(-50%,0);-webkit-transform:translate(-50%,0);}
+.reproExclusiva{width:100%;height:100%;padding:0 5%;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.reproExclusiva iframe{width:350px;}
+.reproExclusiva article{font-family:serif;font-size:2.4em;text-align:center;margin-top:1em;}
+.contIntro{width:100%;}
+.contIntro #ArtFoto{display:none;}
+.contIntroInte{width:100%;height:100%;padding:0 5% 10% 5%;}
+.contIntroInte h3{font-family:serif;font-size:2em;font-weight:normal;color:rgb(100,70,20);margin-bottom:.5em;}
+.contIntroInte p{font-family:serif;font-size:1.6em;color:rgb(127,127,127);}
+.contIntroInte strong{font-family:serif;font-weight:normal;}
+.contIntroInte time{font-family:serif;font-weight:bold;}
+.contIntroInte article hr{border:none;height:2px;background:rgb(200,200,200);}
+.contMusica{width:100%;height:100%;position:relative;}
+#album1, #album2, #album3, #album4, #album5, #album6{width:100%;height:100%;position:absolute;top:0;left:0;}
+.repro{width:560px;margin:15% auto 0 auto;}
+.repro iframe{width:100%;}
+.MenuAlbum{width:100%;text-align:center;position:absolute;bottom:5%;}
+.MenuAlbum h2{width:100%;margin-bottom:1em;font-family:serif;font-size:2.4em;letter-spacing:0.05em;font-weight:normal;color:rgb(245,245,245);}
+.MenuAlbum li{list-style-type:none;font-size:1.6em;letter-spacing:0.02em;color:rgb(200,200,200);margin-bottom:1em;cursor:pointer;}
+.contProductos{width:100%;padding:10% 5%;}
+.prodInfoContacto{font-family:serif;font-size:1.6em;color:rgb(100,70,20);text-align:right;}
+.contProductos article{width:100%;position:relative;margin:10% 0;}
+.contProductos article img{width:100%;display:block;position:relative;}
+.InfoProducto{position:absolute;bottom:2%;left:2%;}
+.InfoProducto h3{font-size:2em;font-weight:bold;letter-spacing:0.02em;color:rgb(245,245,245);}
+.InfoProducto p{font-family:serif;font-size:1.6em;color:rgb(245,245,245);}
+footer{width:100%;height:100%;background:url(../img/DSC05455vert.jpg);background-size:cover;background-position:center,center;background-repeat:no-repeat;background-attachment:fixed;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+footer address{text-align:center;flex:1;display:flex;flex-direction:column;justify-content:center;}
+footer address a{color:rgb(255,255,255);font-size:2.4em;font-style:normal;margin-bottom:5%;display:inline-block;}
+footer address p{color:rgb(255,255,255);font-size:1.6em;margin-bottom:4%;}
+.RedesSociales{flex:2;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+.RedesSociales a{display:block;width:50%;margin:auto;}
+.RedesSociales img{display:block;width:100%;padding:10px 20px;background:rgb(255,255,255);transition:.2s;
+box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.RedesSociales img:hover{background:rgb(100,70,20);transition:.2s;}
+.contHistoria{width:100%;position:relative;padding:10% 0;}
+.contHistoria img{width:60%;display:block;position:relative;left:20%;}
+.ViejaHistoria{width:90%;position:relative;left:5%;padding-top:5%;}
+.ViejaHistoria h2{font-family:serif;font-size:2.4em;font-weight:normal;color:rgb(100,70,20);margin-bottom:1em;}
+.ViejaHistoria p{font-size:1.6em;letter-spacing:0.02em;color:rgb(127,127,127);text-align:justify;}
+.ViejaHistoria strong{font-weight:normal;}
+.footer{width:100%;background:rgb(32,32,32);position:relative;}
+.footer p{color:rgb(200,200,200);font-size:1.4em;}
+.contFirma{width:80%;margin:0 auto;padding:10% 0 30% 0;}
+.contFirma img{display:block;width:100%;}
+.firma{position:absolute;left:6%;bottom:10%;text-align:left;width:49%;}
+.infoweb{position:absolute;right:6%;bottom:10%;text-align:right;width:49%;}
+.avisoPhoneHor{display:none;}
