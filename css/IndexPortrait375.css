@@ -52,11 +52,11 @@ box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 .contHistoria{width:100%;position:relative;padding:10% 0;}
 .contHistoria img{width:80%;display:block;position:relative;left:10%;}
 .ViejaHistoria{width:90%;position:relative;left:5%;padding-top:5%;}
-.ViejaHistoria h2{font-family:serif;font-size:2em;font-weight:normal;color:rgb(100,70,20);margin-bottom:.5em;}
-.ViejaHistoria p{font-size:1.2em;letter-spacing:0.02em;color:rgb(127,127,127);text-align:justify;}
+.ViejaHistoria h2{font-family:serif;font-size:1.2em;font-weight:normal;color:rgb(100,70,20);margin-bottom:.5em;}
+.ViejaHistoria p{font-size:1em;letter-spacing:0.02em;color:rgb(127,127,127);text-align:justify;}
 .ViejaHistoria strong{font-weight:normal;}
 .footer{width:100%;background:rgb(32,32,32);position:relative;}
-.footer p{color:rgb(200,200,200);font-size:1em;}
+.footer p{color:rgb(200,200,200);font-size:.9em;}
 .contFirma{width:90%;margin:0 auto;padding:10% 0 30% 0;}
 .contFirma img{display:block;width:100%;}
 .firma{position:absolute;left:6%;bottom:10%;text-align:left;width:49%;}
