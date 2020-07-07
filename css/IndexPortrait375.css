@@ -56,7 +56,7 @@ box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 .ViejaHistoria p{font-size:1em;letter-spacing:0.02em;color:rgb(127,127,127);text-align:justify;}
 .ViejaHistoria strong{font-weight:normal;}
 .footer{width:100%;background:rgb(32,32,32);position:relative;}
-.footer p{color:rgb(200,200,200);font-size:.9em;}
+.footer p{color:rgb(200,200,200);font-size:.8em;}
 .contFirma{width:90%;margin:0 auto;padding:10% 0 30% 0;}
 .contFirma img{display:block;width:100%;}
 .firma{position:absolute;left:6%;bottom:10%;text-align:left;width:49%;}
