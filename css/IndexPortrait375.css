@@ -8,8 +8,8 @@ body{width:100%;height:100%;background-color:rgb(255,255,255);}
 header{width:100%;height:100%;background:url(../img/DSC05455vert.jpg);background-size:cover;background-position:center,center;background-repeat:no-repeat;background-attachment:fixed;}
 header .MenuPrincipal{position:absolute;left:6%;bottom:6%;z-index:100;}
 header .RedesHeader{position:absolute;right:6%;bottom:6%;z-index:100;}
-header li{padding:.4em 0;list-style-type:none;}
-header a{color:rgb(200,200,200);letter-spacing:0.02em;font-size:1.2em;}
+header li{padding:.5em 0;list-style-type:none;}
+header a{color:rgb(200,200,200);letter-spacing:0.02em;font-size:1.3em;}
 .contLogotipos{position:absolute;top:6%;right:6%;z-index:1;}
 .contLogotipos #Escudo{display:block;width:120px;position:relative;left:50%;z-index:2;
 transform:translate(-50%,0);-webkit-transform:translate(-50%,0);}
@@ -31,8 +31,8 @@ transform:translate(-50%, 0);-webkit-transform:translate(-50%, 0);}
 .repro{width:90%;margin:10% 0 0 5%;}
 .repro iframe{width:100%;}
 .MenuAlbum{width:100%;text-align:center;position:absolute;bottom:3%;}
-.MenuAlbum h2{width:100%;margin-bottom:.5em;font-family:serif;font-size:1.5em;letter-spacing:0.05em;font-weight:normal;color:rgb(245,245,245);}
-.MenuAlbum li{list-style-type:none;font-size:1.2em;letter-spacing:0.02em;color:rgb(200,200,200);margin-bottom:.2em;cursor:pointer;}
+.MenuAlbum h2{width:100%;margin-bottom:.5em;font-family:serif;font-size:1.2em;letter-spacing:0.05em;font-weight:normal;color:rgb(245,245,245);}
+.MenuAlbum li{list-style-type:none;font-size:1.1em;letter-spacing:0.02em;color:rgb(200,200,200);margin-bottom:.2em;cursor:pointer;}
 .contProductos{width:100%;padding:10% 5%;}
 .prodInfoContacto{font-family:serif;font-size:1.2em;color:rgb(100,70,20);text-align:right;}
 .contProductos article{width:100%;position:relative;margin:10% 0;}
