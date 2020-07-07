@@ -34,7 +34,7 @@ transform:translate(-50%, 0);-webkit-transform:translate(-50%, 0);}
 .MenuAlbum h2{width:100%;margin-bottom:.5em;font-family:serif;font-size:1.2em;letter-spacing:0.05em;font-weight:normal;color:rgb(245,245,245);}
 .MenuAlbum li{list-style-type:none;font-size:1.1em;letter-spacing:0.02em;color:rgb(200,200,200);margin-bottom:.2em;cursor:pointer;}
 .contProductos{width:100%;padding:10% 5%;}
-.prodInfoContacto{font-family:serif;font-size:1.2em;color:rgb(100,70,20);text-align:right;}
+.prodInfoContacto{font-family:serif;font-size:1em;color:rgb(100,70,20);text-align:right;}
 .contProductos article{width:100%;position:relative;margin:10% 0;}
 .contProductos article img{width:100%;display:block;position:relative;}
 .InfoProducto{position:absolute;bottom:2%;left:2%;}
