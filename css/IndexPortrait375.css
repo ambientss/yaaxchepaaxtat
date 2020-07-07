@@ -6,10 +6,10 @@ html{width:100%;height:100%;}
 body{width:100%;height:100%;background-color:rgb(255,255,255);}
 #BotonAudio{display:none;}
 header{width:100%;height:100%;background:url(../img/DSC05455vert.jpg);background-size:cover;background-position:center,center;background-repeat:no-repeat;background-attachment:fixed;}
-header .MenuPrincipal{position:absolute;left:6%;bottom:3%;z-index:100;}
-header .RedesHeader{position:absolute;right:6%;bottom:3%;z-index:100;}
+header .MenuPrincipal{position:absolute;left:6%;bottom:6%;z-index:100;}
+header .RedesHeader{position:absolute;right:6%;bottom:6%;z-index:100;}
 header li{padding:.4em 0;list-style-type:none;}
-header a{color:rgb(200,200,200);letter-spacing:0.02em;font-size:1.4em;}
+header a{color:rgb(200,200,200);letter-spacing:0.02em;font-size:1.2em;}
 .contLogotipos{position:absolute;top:6%;right:6%;z-index:1;}
 .contLogotipos #Escudo{display:block;width:120px;position:relative;left:50%;z-index:2;
 transform:translate(-50%,0);-webkit-transform:translate(-50%,0);}
@@ -21,8 +21,8 @@ transform:translate(-50%, 0);-webkit-transform:translate(-50%, 0);}
 .contIntro{width:100%;}
 .contIntro #ArtFoto{display:none;}
 .contIntroInte{width:100%;height:100%;padding:0 5% 10% 5%;}
-.contIntroInte h3{font-family:serif;font-size:1.4em;font-weight:normal;color:rgb(100,70,20);margin-bottom:.5em;}
-.contIntroInte p{font-family:serif;font-size:1.2em;color:rgb(127,127,127);}
+.contIntroInte h3{font-family:serif;font-size:1.2em;font-weight:normal;color:rgb(100,70,20);margin-bottom:.5em;}
+.contIntroInte p{font-family:serif;font-size:1em;color:rgb(127,127,127);}
 .contIntroInte strong{font-family:serif;font-weight:normal;}
 .contIntroInte time{font-family:serif;font-weight:bold;}
 .contIntroInte article hr{border:none;height:2px;background:rgb(200,200,200);}
